@@ -1,0 +1,407 @@
+
+#ifdef os2
+GROUPICON 1   bmp\icoos2\sibyl.ico
+#endif
+#ifdef win32
+GROUPICON 1   bmp\icowin\sibyl.ico
+#endif
+
+#ifdef os2
+ICON MainForm bmp\icoos2\sibyl.ico
+ICON ISpector bmp\icoos2\ispector.ico
+ICON Watch    bmp\icoos2\watch.ico
+ICON Edit     bmp\icoos2\edit.ico
+ICON Inspect  bmp\icoos2\inspect.ico
+ICON CpuWin   bmp\icoos2\cpuwin.ico
+#endif
+#ifdef win32
+ICON MainForm bmp\icowin\sibyl.ico
+ICON ISpector bmp\icowin\ispector.ico
+ICON Watch    bmp\icowin\watch.ico
+ICON Edit     bmp\icowin\edit.ico
+ICON Inspect  bmp\icowin\inspect.ico
+ICON CpuWin   bmp\icowin\cpuwin.ico
+#endif
+
+/* Bitmaps Property Dialog Bitmaps */
+
+BITMAP 100 bmp\ok.bmp
+BITMAP 101 bmp\cancel.bmp
+BITMAP 102 bmp\no.bmp
+BITMAP 103 bmp\help.bmp
+BITMAP 104 bmp\attentio.bmp
+BITMAP 105 bmp\info.bmp
+BITMAP 110 bmp\k_red.bmp
+BITMAP 111 bmp\k_blue.bmp
+BITMAP 112 bmp\k_lila.bmp
+BITMAP 120 bmp\up.bmp
+BITMAP 121 bmp\down.bmp
+BITMAP 122 bmp\left.bmp
+BITMAP 123 bmp\right.bmp
+
+
+/* Speedbar Bitmaps */
+
+BITMAP 1001 bmp\cut.bmp
+BITMAP 1002 bmp\copy.bmp
+BITMAP 1003 bmp\active.bmp
+BITMAP 1004 bmp\compile.bmp
+BITMAP 1005 bmp\filesave.bmp
+BITMAP 1006 bmp\fileopen.bmp
+BITMAP 1007 bmp\find.bmp
+BITMAP 1008 bmp\prgreset.bmp
+BITMAP 1009 bmp\help.bmp
+BITMAP 1010 bmp\make.bmp
+BITMAP 1011 bmp\replace.bmp
+BITMAP 1012 bmp\run.bmp
+BITMAP 1013 bmp\undo.bmp
+BITMAP 1014 bmp\winlist.bmp
+BITMAP 1015 bmp\paste.bmp
+BITMAP 1016 bmp\inspect.bmp
+BITMAP 1017 bmp\formunit.bmp
+BITMAP 1018 bmp\stepinto.bmp
+BITMAP 1019 bmp\stepover.bmp
+BITMAP 1020 bmp\filenew.bmp
+BITMAP 1021 bmp\formnew.bmp
+BITMAP 1022 bmp\redo.bmp
+BITMAP 1023 bmp\cascade.bmp
+BITMAP 1024 bmp\tile.bmp
+BITMAP 1025 bmp\build.bmp
+BITMAP 1026 bmp\findnext.bmp
+BITMAP 1027 bmp\alignmnt.bmp
+BITMAP 1028 bmp\filesval.bmp
+BITMAP 1029 bmp\filesvas.bmp
+BITMAP 1030 bmp\formopen.bmp
+BITMAP 1031 bmp\prjopen.bmp
+BITMAP 1032 bmp\prjsave.bmp
+BITMAP 1033 bmp\prjsavas.bmp
+BITMAP 1034 bmp\speedbar.bmp
+BITMAP 1035 bmp\navigate.bmp
+BITMAP 1036 bmp\statusbr.bmp
+BITMAP 1037 bmp\inact.bmp
+BITMAP 1038 bmp\stopcomp.bmp
+BITMAP 1039 bmp\stepout.bmp
+
+BITMAP 1040 bmp\prjexp.bmp
+BITMAP 1041 bmp\frmexp.bmp
+
+BITMAP 1042 bmp\new_thrd.bmp
+BITMAP 1043 bmp\new_app.bmp
+BITMAP 1044 bmp\new_form.bmp
+BITMAP 1045 bmp\new_unit.bmp
+BITMAP 1046 bmp\new_text.bmp
+BITMAP 1047 bmp\new_comp.bmp
+BITMAP 1048 bmp\new_clib.bmp
+BITMAP 1049 bmp\new_dock.bmp
+
+BITMAP 1050 bmp\addfile.bmp
+BITMAP 1051 bmp\rmovfile.bmp
+BITMAP 1052 bmp\prjsett.bmp
+BITMAP 1053 bmp\formdel.bmp
+BITMAP 1054 bmp\import.bmp
+BITMAP 1055 bmp\formsett.bmp
+BITMAP 1056 bmp\addmain.bmp
+BITMAP 1057 bmp\findfile.bmp
+BITMAP 1058 bmp\findbrac.bmp
+
+BITMAP 1060 bmp\form.bmp
+BITMAP 1061 bmp\mainform.bmp
+
+
+BITMAP 1100 bmp\folder.bmp
+BITMAP 1101 bmp\siblogo.bmp
+BITMAP 1102 bmp\wrench.bmp
+BITMAP 1111 bmp\nobmp.bmp
+
+
+/* Navigator Bitmaps */
+
+BITMAP 1210 bmp\bitmap.bmp
+BITMAP 1211 bmp\button.bmp
+BITMAP 1212 bmp\checkbox.bmp
+BITMAP 1213 bmp\combobox.bmp
+BITMAP 1214 bmp\entry.bmp
+BITMAP 1215 bmp\radiogrp.bmp
+BITMAP 1216 bmp\duallist.bmp
+BITMAP 1217 bmp\groupbox.bmp
+BITMAP 1218 bmp\hscroll.bmp
+BITMAP 1219 bmp\listview.bmp
+BITMAP 1220 bmp\AnimBtn.bmp
+BITMAP 1221 bmp\listbox.bmp
+BITMAP 1222 bmp\memo.bmp
+BITMAP 1223 bmp\tabset.bmp
+BITMAP 1224 bmp\notebook.bmp
+BITMAP 1225 bmp\radiobox.bmp
+BITMAP 1226 bmp\treeview.bmp
+BITMAP 1227 bmp\slider.bmp
+BITMAP 1228 bmp\tabbednb.bmp
+BITMAP 1229 bmp\text.bmp
+BITMAP 1230 bmp\colorgrd.bmp
+BITMAP 1231 bmp\valueset.bmp
+BITMAP 1232 bmp\vscroll.bmp
+BITMAP 1233 bmp\xplorbtn.bmp
+BITMAP 1234 bmp\editlist.bmp
+BITMAP 1235 bmp\bitbtn.bmp
+BITMAP 1237 bmp\toolbar.bmp
+BITMAP 1238 bmp\percbar.bmp
+BITMAP 1239 bmp\video.bmp
+BITMAP 1240 bmp\mainmenu.bmp
+BITMAP 1241 bmp\mplayer.bmp
+BITMAP 1242 bmp\panel.bmp
+BITMAP 1243 bmp\SpeedBtn.bmp
+BITMAP 1244 bmp\StrGrid.bmp
+BITMAP 1245 bmp\Bevel.bmp
+BITMAP 1246 bmp\OpenDlg.bmp
+BITMAP 1247 bmp\SaveDlg.bmp
+BITMAP 1248 bmp\ReplDlg.bmp
+BITMAP 1249 bmp\FindDlg.bmp
+BITMAP 1250 bmp\ColorDlg.bmp
+BITMAP 1251 bmp\FontDlg.bmp
+BITMAP 1252 bmp\Timer.bmp
+BITMAP 1253 bmp\swtchbtn.bmp
+BITMAP 1254 bmp\bmplist.bmp
+BITMAP 1255 bmp\ChDirDlg.bmp
+BITMAP 1256 bmp\thread.bmp
+BITMAP 1257 bmp\filelist.bmp
+BITMAP 1258 bmp\drvcombo.bmp
+BITMAP 1259 bmp\dirlist.bmp
+BITMAP 1260 bmp\videodev.bmp
+BITMAP 1261 bmp\audiodev.bmp
+BITMAP 1262 bmp\cddevice.bmp
+BITMAP 1263 bmp\volume.bmp
+BITMAP 1264 bmp\mcidevic.bmp
+BITMAP 1265 bmp\filcombo.bmp
+BITMAP 1266 bmp\CrDirDlg.bmp
+BITMAP 1270 bmp\table.bmp
+BITMAP 1271 bmp\query.bmp
+BITMAP 1272 bmp\datasrc.bmp
+BITMAP 1273 bmp\dbgrid.bmp
+BITMAP 1274 bmp\dbentry.bmp
+BITMAP 1275 bmp\dbcheck.bmp
+BITMAP 1276 bmp\dbradio.bmp
+BITMAP 1277 bmp\dblabel.bmp
+BITMAP 1278 bmp\dbimage.bmp
+BITMAP 1279 bmp\dblistbx.bmp
+BITMAP 1280 bmp\dbcombo.bmp
+BITMAP 1281 bmp\dbnav.bmp
+BITMAP 1282 bmp\dbmemo.bmp
+BITMAP 1283 bmp\srvconv.bmp
+BITMAP 1284 bmp\srvitem.bmp
+BITMAP 1285 bmp\cliconv.bmp
+BITMAP 1286 bmp\cliitem.bmp
+BITMAP 1287 bmp\shape.bmp
+BITMAP 1288 bmp\updown.bmp
+BITMAP 1289 bmp\trackbar.bmp
+BITMAP 1290 bmp\paintbox.bmp
+BITMAP 1291 bmp\checklb.bmp
+BITMAP 1292 bmp\popmenu.bmp
+BITMAP 1293 bmp\statusb.bmp
+BITMAP 1294 bmp\sizeb.bmp
+BITMAP 1295 bmp\header.bmp
+BITMAP 1296 bmp\drawgrid.bmp
+BITMAP 1297 bmp\printdlg.bmp
+BITMAP 1298 bmp\prnsetup.bmp
+BITMAP 1299 bmp\sopendlg.bmp
+BITMAP 1300 bmp\ssavedlg.bmp
+BITMAP 1301 bmp\imaglist.bmp
+BITMAP 1302 bmp\storproc.bmp
+BITMAP 1303 bmp\scrollbx.bmp
+BITMAP 1304 bmp\maskedit.bmp
+BITMAP 1305 bmp\clisock.bmp
+BITMAP 1306 bmp\srvsock.bmp
+BITMAP 1307 bmp\http.bmp
+BITMAP 1308 bmp\ftp.bmp
+BITMAP 1309 bmp\tcp.bmp
+BITMAP 1310 bmp\udp.bmp
+BITMAP 1311 bmp\piechart.bmp
+BITMAP 1312 bmp\dbpie.bmp
+BITMAP 1313 bmp\barchart.bmp
+BITMAP 1314 bmp\dbBar.bmp
+BITMAP 1315 bmp\calendar.bmp
+BITMAP 1316 bmp\analog.bmp
+BITMAP 1317 bmp\diroutln.bmp
+BITMAP 1318 bmp\glyphbtn.bmp
+BITMAP 1319 bmp\onoffsw.bmp
+BITMAP 1320 bmp\gradient.bmp
+BITMAP 1321 bmp\rechint.bmp
+BITMAP 1322 bmp\bubhint.bmp
+BITMAP 1323 bmp\seven1.bmp
+BITMAP 1324 bmp\led.bmp
+
+/* Alignment Bitmaps */
+
+BITMAP 1341 bmp\align1.bmp
+BITMAP 1342 bmp\align2.bmp
+BITMAP 1343 bmp\align3.bmp
+BITMAP 1344 bmp\align4.bmp
+BITMAP 1345 bmp\align5.bmp
+BITMAP 1346 bmp\align6.bmp
+BITMAP 1347 bmp\align7.bmp
+BITMAP 1348 bmp\align8.bmp
+BITMAP 1349 bmp\align9.bmp
+BITMAP 1350 bmp\align10.bmp
+BITMAP 1351 bmp\align11.bmp
+BITMAP 1352 bmp\align12.bmp
+BITMAP 1353 bmp\align13.bmp
+BITMAP 1354 bmp\align14.bmp
+BITMAP 1355 bmp\frcalign.bmp
+BITMAP 1356 bmp\refresh.bmp
+BITMAP 1357 bmp\delctrl.bmp
+BITMAP 1358 bmp\gridvis.bmp
+BITMAP 1359 bmp\snapgrid.bmp
+BITMAP 1360 bmp\arrow.bmp
+BITMAP 1361 bmp\arrowdwn.bmp
+BITMAP 1362 bmp\togglsel.bmp
+
+
+/* Code Editor Bitmaps */
+
+BITMAP 1400 bmp\bookmark.bmp
+BITMAP 1401 bmp\book0.bmp
+BITMAP 1402 bmp\book1.bmp
+BITMAP 1403 bmp\book2.bmp
+BITMAP 1404 bmp\book3.bmp
+BITMAP 1405 bmp\book4.bmp
+BITMAP 1406 bmp\book5.bmp
+BITMAP 1407 bmp\book6.bmp
+BITMAP 1408 bmp\book7.bmp
+BITMAP 1409 bmp\book8.bmp
+BITMAP 1410 bmp\book9.bmp
+BITMAP 1411 bmp\dbgline.bmp
+BITMAP 1412 bmp\brkline.bmp
+BITMAP 1413 bmp\brkline2.bmp
+BITMAP 1414 bmp\errline.bmp
+BITMAP 1415 bmp\dbginfo.bmp
+BITMAP 1416 bmp\dbgbreak.bmp
+
+
+/* Browser Bitmaps */
+
+BITMAP 1438 bmp\const.bmp
+BITMAP 1439 bmp\proc.bmp
+BITMAP 1440 bmp\types.bmp
+BITMAP 1441 bmp\var.bmp
+BITMAP 1442 bmp\prop.bmp
+BITMAP 1443 bmp\inherit.bmp
+BITMAP 1444 bmp\virtual.bmp
+BITMAP 1445 bmp\private.bmp
+BITMAP 1446 bmp\protect.bmp
+BITMAP 1447 bmp\public.bmp
+BITMAP 1448 bmp\publish.bmp
+
+BITMAP 1449 bmp\Inheritw.bmp
+BITMAP 1450 bmp\Inheritg.bmp
+BITMAP 1451 bmp\Virtualw.bmp
+BITMAP 1452 bmp\Virtualg.bmp
+BITMAP 1453 bmp\Publishw.bmp
+BITMAP 1454 bmp\Publishg.bmp
+BITMAP 1455 bmp\Publicw.bmp
+BITMAP 1456 bmp\Publicg.bmp
+BITMAP 1457 bmp\Privatew.bmp
+BITMAP 1458 bmp\Privateg.bmp
+BITMAP 1459 bmp\Protectw.bmp
+BITMAP 1460 bmp\Protectg.bmp
+
+
+/* Container Bitmaps */
+
+BITMAP 1500 bmp\form0.bmp
+BITMAP 1501 bmp\form1.bmp
+BITMAP 1502 bmp\form2.bmp
+BITMAP 1503 bmp\nb0.bmp
+BITMAP 1504 bmp\nb1.bmp
+BITMAP 1505 bmp\nb2.bmp
+BITMAP 1506 bmp\nbp0.bmp
+BITMAP 1507 bmp\nbp1.bmp
+BITMAP 1508 bmp\nbp2.bmp
+BITMAP 1509 bmp\ctrl0.bmp
+BITMAP 1510 bmp\ctrl1.bmp
+BITMAP 1511 bmp\ctrl2.bmp
+BITMAP 1512 bmp\exe0.bmp
+BITMAP 1513 bmp\exe1.bmp
+BITMAP 1514 bmp\exe2.bmp
+BITMAP 1515 bmp\pas0.bmp
+BITMAP 1516 bmp\pas1.bmp
+BITMAP 1517 bmp\pas2.bmp
+BITMAP 1518 bmp\res0.bmp
+BITMAP 1519 bmp\res1.bmp
+BITMAP 1520 bmp\res2.bmp
+BITMAP 1521 bmp\scu0.bmp
+BITMAP 1522 bmp\scu1.bmp
+BITMAP 1523 bmp\scu2.bmp
+
+/* Additional Toolbar Buttons */
+
+BITMAP 1700 bmp\new.bmp
+BITMAP 1701 bmp\fileins.bmp
+BITMAP 1702 bmp\fileprnt.bmp
+BITMAP 1703 bmp\prjnew.bmp
+BITMAP 1704 bmp\prjclose.bmp
+BITMAP 1705 bmp\delete.bmp
+BITMAP 1706 bmp\exit.bmp
+BITMAP 1707 bmp\selectal.bmp
+BITMAP 1708 bmp\selectno.bmp
+BITMAP 1709 bmp\macrorec.bmp
+BITMAP 1710 bmp\macroply.bmp
+BITMAP 1711 bmp\macrosav.bmp
+BITMAP 1712 bmp\prgrelod.bmp
+BITMAP 1713 bmp\runparam.bmp
+BITMAP 1714 bmp\creatdir.bmp
+BITMAP 1715 bmp\changdir.bmp
+BITMAP 1716 bmp\incserch.bmp
+BITMAP 1717 bmp\gotoline.bmp
+BITMAP 1718 bmp\gotoerr.bmp
+BITMAP 1719 bmp\books.bmp
+BITMAP 1720 bmp\newcomp.bmp
+BITMAP 1721 bmp\instcomp.bmp
+BITMAP 1722 bmp\removcmp.bmp
+BITMAP 1723 bmp\openclib.bmp
+BITMAP 1724 bmp\compclib.bmp
+BITMAP 1725 bmp\toolbars.bmp
+BITMAP 1727 bmp\clearbrk.bmp
+BITMAP 1728 bmp\closeall.bmp
+BITMAP 1729 bmp\tools.bmp
+BITMAP 1730 bmp\tool0.bmp
+BITMAP 1731 bmp\tool1.bmp
+BITMAP 1732 bmp\tool2.bmp
+BITMAP 1733 bmp\tool3.bmp
+BITMAP 1734 bmp\tool4.bmp
+BITMAP 1735 bmp\tool5.bmp
+BITMAP 1736 bmp\tool6.bmp
+BITMAP 1737 bmp\tool7.bmp
+BITMAP 1738 bmp\tool8.bmp
+BITMAP 1739 bmp\tool9.bmp
+BITMAP 1740 bmp\closetop.bmp
+BITMAP 1741 bmp\maxirest.bmp
+BITMAP 1742 bmp\keyshelp.bmp
+
+#ifdef win32
+BITMAP SibLogo bmp\startwin.bmp
+#endif
+#ifdef os2
+BITMAP SibLogo bmp\startos2.bmp
+#endif
+BITMAP 1811 bmp\empty.bmp
+
+BITMAP 2000 bmp\nls.bmp
+BITMAP 2002 bmp\TBreak.bmp
+BITMAP 2003 bmp\GoCur.bmp
+BITMAP 2004 bmp\EMod.bmp
+BITMAP 2005 bmp\WPoint.bmp
+BITMAP 2006 bmp\Break.bmp
+BITMAP 2007 bmp\SFiles.bmp
+BITMAP 2008 bmp\AWatch.bmp
+BITMAP 2009 bmp\go.bmp
+BITMAP 2010 bmp\Insp.bmp
+BITMAP 2011 bmp\Symbols.bmp
+BITMAP 2012 bmp\cpu.bmp
+BITMAP 2013 bmp\ProgRes.bmp
+BITMAP 2014 bmp\tod.bmp
+BITMAP 2015 bmp\Index.bmp
+BITMAP 2017 bmp\Storage.bmp
+BITMAP 2018 bmp\WatchWin.bmp
+BITMAP 2019 bmp\NextW.bmp
+BITMAP 2020 bmp\PrevW.bmp
+BITMAP 2021 bmp\tops.bmp
+BITMAP 2022 bmp\Locals.bmp
+

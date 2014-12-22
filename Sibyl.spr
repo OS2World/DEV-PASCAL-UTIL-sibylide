@@ -1,0 +1,165 @@
+[Application Options]
+
+ApplicationIcon=D:\SIBYL\BIN\default.ico
+
+[Compiler Options]
+
+CodeGeneration=Assertions
+Syntax=
+Optimize=OptimizeCommonSub,OptimizePeephole
+RuntimeCheck=
+CondDefine=
+
+[Compiler Warnings]
+
+Warnings=W2,W3,W4,W5,W6,W7
+MaxWarnings=200
+MaxErrors=10
+
+[Debugger Options]
+
+DebugInfo=
+EvalHints=True
+Dbg_Options=0
+RTL_Exceptions=1073741823
+SPCC_Exceptions=4194303
+
+[Directories]
+
+LastDir=E:\work\sibyl\ide
+OutDir=.
+LibDir=e:\work\sibyl\rtl;e:\work\sibyl\spcc;e:\work\sibyl\addon
+LibSrcDir=
+IncSrcDir=
+CompInstallDir=
+
+[General]
+
+Version=Sibyl Project Ver2.02
+ProjectName=e:\work\sibyl\ide\Sibyl.spr
+ProjectType=Visual
+CompLibName=D:\SIBYL\BIN\CompLib.dll
+Win32CompLibName=
+RunParameter=
+InActiveLanguages=
+CurrentLanguage=
+Platform=Standard
+
+[Last Open Files]
+
+File0=.\sibyl.pas
+File0.Left=-4
+File0.Bottom=-5
+File0.Width=576
+File0.Height=330
+File0.Column=77
+File0.Line=43
+File1=.\PROJECTS.PAS
+File1.Left=-4
+File1.Bottom=-5
+File1.Width=576
+File1.Height=330
+File1.Column=15
+File1.Line=384
+
+[Linker Options]
+
+DataSegment=Normal
+LinkerTarget=GUI
+ExePacking=ExePack2
+RunVDM=True
+CurrentLanguage=Default
+InstallLanguages=
+
+[Memory Sizes]
+
+Heap=8192
+Stack=256
+
+[Project Files]
+
+Primary=
+MainFile0=.\Sibyl.pas
+MainFile0.Ext=
+MainFile0.Checksum=0
+MainFile0.Expanded=False
+MainFile0.File0=.\Unit1.pas
+MainFile0.File1=.\sibyl.pas
+
+[Repository]
+
+Page0=Projects
+Page0.Installed=True
+Page0.Object0=SpeedSoft.AppExpert
+Page0.Object0.NewProject=False
+Page0.Object0.NewForm=False
+Page0.Object0.MainForm=False
+Page0.Object0.InPage=True
+Page0.Object0.Title=AppExpert
+Page0.Object0.Description=(C) 1997 SpeedSoft.
+Page0.Object0.Author=SpeedSoft
+Page1=[Object Repository]
+Page1.Installed=True
+Page1.Object0=SpeedSoft.AppExpert
+Page1.Object0.NewProject=False
+Page1.Object0.NewForm=False
+Page1.Object0.MainForm=False
+Page1.Object0.InPage=True
+Page1.Object0.Title=AppExpert
+Page1.Object0.Description=(C) 1997 SpeedSoft.
+Page1.Object0.Author=SpeedSoft
+
+[SCU]
+
+SCUName=.\Sibyl.scu
+MainForm=
+
+[Win32 Application Options]
+
+ApplicationIcon=
+
+[Win32 Compiler Options]
+
+CodeGeneration=Assertions
+Syntax=
+Optimize=OptimizeCommonSub,OptimizePeephole
+RuntimeCheck=
+CondDefine=
+
+[Win32 Compiler Warnings]
+
+Warnings=W2,W3,W4,W5,W6,W7
+MaxWarnings=200
+MaxErrors=10
+
+[Win32 Debugger Options]
+
+DebugInfo=
+EvalHints=True
+Dbg_Options=0
+RTL_Exceptions=1073741823
+SPCC_Exceptions=4194303
+
+[Win32 Directories]
+
+LastDir=
+OutDir=D:\SIBYL\Output
+LibDir=D:\SIBYL\Lib
+LibSrcDir=D:\SIBYL\Source\RTL;D:\SIBYL\Source\SPCC
+IncSrcDir=
+CompInstallDir=D:\SIBYL\Compnt
+
+[Win32 Linker Options]
+
+DataSegment=Normal
+LinkerTarget=GUI
+ExePacking=ExePack2
+RunVDM=True
+CurrentLanguage=Default
+InstallLanguages=
+
+[Win32 Memory Sizes]
+
+Heap=8192
+Stack=256
+

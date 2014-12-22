@@ -1,0 +1,5 @@
+Offset       4 bytes
+Object ID    2 bytes
+Symbol type  2 bytes
+Name length  1 byte
+Name         N bytes
